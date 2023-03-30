@@ -1,0 +1,49 @@
+Креирав локален репозиториум со командите:
+mkdir SI_2023_lab1_203006 -> креирање директориум
+cd SI_2023_lab1_203006    -> влез во директориум
+git init                  -> инизијализирање на Git
+
+Локалниот репозиториум го повруваме со оддалечениот репозиториум:
+git remote add origin https://github.com/viktorijaaav/SI_2023_lab1_203006.git
+
+Додадовме датотека:
+nano README.md
+git add README.md
+git commit -m "Initial commit"
+
+Додаваме фајл:
+nano SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+
+Ги синхронизираме сите гранки:
+git push origin bug2
+
+Се префрламе на гранка bug3
+git checkout bug3      
+
+Ја поправаме грешката во for циклусот
+nano SILab1.java        
+git add SILab1.java      
+git commit -m "Fixed method in sumevennumbers"     
+git push origin bug3
+
+
+Се префрламе на гранката master
+git checkout master 
+
+Ја спојуваме гранката bug1 со гранката master
+git merge bug1
+
+Ги синхронизираме сите гранки
+git push origin master
+
+Ја спојуваме гранката bug2 со гранката master
+git merge bug2
+
+Ги синхронизираме сите гранки
+git push origin master
+
+Правиме rebase на гранката master
+git fetch
+git rebase master
