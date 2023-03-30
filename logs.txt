@@ -1,0 +1,36 @@
+commit fa5423c1e47e199be64070ea95f622eb0b2692b4 (HEAD -> master, origin/master, bug3)
+Author: Viktorija <viktoriavojneska@gmail.com>
+Date:   Fri Mar 31 01:15:31 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit f05c0283c899e75b33c7bc9ff134505b4fbfbf4f
+Merge: 69bf944 1d06d09
+Author: Viktorija <viktoriavojneska@gmail.com>
+Date:   Fri Mar 31 01:21:54 2023 +0200
+
+    Merge branch 'bug1'
+
+commit 1d06d09a4544e2b3f2205e72b57fc62d2e4e6be4 (origin/bug2, bug2)
+Author: Viktorija <viktoriavojneska@gmail.com>
+Date:   Fri Mar 31 01:13:47 2023 +0200
+
+     Fix wrong condition in filterOddNumbers
+
+commit 69bf944bb4084a08031cb3e4a8ba32873ba7c345 (origin/bug1, bug1)
+Author: Viktorija <viktoriavojneska@gmail.com>
+Date:   Fri Mar 31 01:11:48 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 9f4506cb774017e4a8c46402974e1d8f71015535
+Author: Viktorija <viktoriavojneska@gmail.com>
+Date:   Fri Mar 31 01:00:31 2023 +0200
+
+    Add java class
+
+commit c7bafa435afd80cc267bb6733349a37cca469e41
+Author: Viktorija <viktoriavojneska@gmail.com>
+Date:   Fri Mar 31 00:52:45 2023 +0200
+
+:
